@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Control & Balance Consultores</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+
+        body {
+            background-color: #f4f6f8;
+            font-family: Arial;
+            margin: 40px;
+        }
+
+        h1 {
+            color: #1C7A7C
+;
+        }
+
+        h2 {
+            color: #2F3E4E;
+        }
+        nav {
+    background-color: #153E6F;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #8A8F94
+}
+main {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+.servicios {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+
+.card h4 {
+    color: #0a2a43;
+}
+@media (max-width: 768px) {
+
+    nav {
+        text-align: center;
+    }
+
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .servicios {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
+    }
+
+}
+.whatsapp-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25D366;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+}
+
+.whatsapp-btn:hover {
+    transform: scale(1.05);
+}
+
+    </style>
+
+</head>
+
+
+<body>
+<header>
+    <h1>Control & Balance Consultores</h1>
+
+    <h2>Servicios Contables y Fiscales</h2>
+
+  <nav>
+        <a href="#">Inicio</a> |
+        <a href="#">Servicios</a> |
+        <a href="#">Nosotros</a> |
+        <a href="#">Contacto</a> 
+    </nav>
+
+</header>
+<main>
+    <p>
+        Somos un despacho enfocado en brindar soluciones contables,
+        fiscales y financieras para personas físicas y negocios.
+    </p>
+
+    <h3>¿Por qué elegirnos?</h3> 
+    <p>
+        Brindamos atención personalizada, cumplimiento fiscal oportuno 
+        y asesoría estratégica para el crecimiento de tu negocio.
+    </p>
+    <ul>
+        <li>Atencion personalizadas</li>
+        <li>Experiencia en impuestos</li>
+        <li>Enfoque en pequeños negocios</li>
+    </ul>
+<h3>Servicios</h3>
+    <ul>
+        <div class="servicios">
+
+    <div class="card">
+        <h4>Contabilidad General</h4>
+        <p>Registro y control contable completo.</p>
+    </div>
+
+    <div class="card">
+        <h4>Declaraciones Mensuales</h4>
+        <p>Presentación correcta y oportuna.</p>
+    </div>
+
+    <div class="card">
+        <h4>Declaración Anual</h4>
+        <p>Cálculo y presentación ante SAT.</p>
+    </div>
+
+    <div class="card">
+        <h4>Asesoría Fiscal</h4>
+        <p>Estrategias para optimizar impuestos.</p>
+    </div>
+
+</div>
+
+    </ul>
+</main>
+<footer>
+    <p>Contactanos por
+        
+
+    </p>
+</footer>
+<a href="https://wa.me/5216641234567?text=Hola,%20quiero%20información%20de%20servicios%20contables" class="whatsapp-btn">
+    WhatsApp
+
+</a>
+
+</body>
+
+</html>
